@@ -7,13 +7,6 @@
     "email": "cansinyildiz@gmail.com",
     "url": "https://www.cansinyildiz.com/"
   },
-  "repository": {
-    "url": "cansin/next-with-offline"
-  },
-  "bugs": {
-    "url": "cansin/next-with-offline/issues"
-  },
-  "homepage": "cansin/next-with-offline#readme",
   "workspaces": [
     "packages/*"
   ],

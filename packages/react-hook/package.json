@@ -3,9 +3,11 @@
   "description": "React hook for registering/using a Workbox.",
   "license": "MIT",
   "repository": {
-    "url": "cansin/next-with-offline",
+    "type": "git",
+    "url": "git+https://github.com/cansin/next-with-offline.git",
     "directory": "packages/react-hook"
   },
+  "homepage": "https://github.com/cansin/cansin/tree/master/packages/react-hook#readme",
   "version": "0.1.5",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
