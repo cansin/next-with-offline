@@ -40,6 +40,7 @@
     "access": "public"
   },
   "dependencies": {
+    "nanoid": "^3.1.3",
     "next-with-workbox": "^1.2.2"
   },
   "gitHead": "d2c7c255414df2f6418c80478f016cde8b7ac752"

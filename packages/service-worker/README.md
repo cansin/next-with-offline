@@ -15,7 +15,9 @@ yarn add @next-with-offline/service-worker
 ```js
 import withOffline from "@next-with-offline/service-worker";
 
-withOffline({ offlinePath: "/offline", showSkipWaitingPrompt: true });
+withOffline({
+  additionalManifestEntries: [{ url: "/offline", revision: nanoid() }],
+});
 ```
 
 ## License
