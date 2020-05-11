@@ -6,10 +6,10 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "build": "lerna exec --parallel -- rollup -c",
-    "dev": "lerna exec --parallel -- rollup -c -w",
-    "test": "eslint . && lerna exec --parallel -- jest",
+    "bootstrap": "yarn lerna bootstrap",
+    "build": "yarn lerna exec --parallel -- rollup -c",
+    "dev": "yarn lerna exec --parallel -- rollup -c -w",
+    "test": "yarn eslint . && yarn lerna exec --parallel -- jest",
     "pretest": "yarn build"
   },
   "devDependencies": {
