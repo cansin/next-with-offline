@@ -55,10 +55,10 @@ yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-wit
    export default function App({ Component, pageProps }) {
      useWorkbox({
        offlinePath: "/offline",
-       showReloadPrompt(onConfirm, onCancel) {
-         // A function that returns a React element
-         // calling `onConfirm` when user agrees to
-         // reload, and `onCancel` if the user dismisses.
+       showReloadPrompt() {
+         // A function that returns a Promise
+         // that resolves when user agrees to reload,
+         // or rejects if the user dismisses.
        },
      });
 
