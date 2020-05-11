@@ -40,10 +40,7 @@ yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-wit
 3. Create `worker.js` with:
 
    ```js
-   import { precacheAndRoute } from "workbox-precaching";
    import withNext from "@next-with-offline/service-worker";
-
-   precacheAndRoute(self.__WB_MANIFEST);
 
    withNext({ offlinePath: "/offline", showSkipWaitingPrompt: true });
    ```
