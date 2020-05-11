@@ -2,7 +2,7 @@
   "name": "@next-with-offline/service-worker",
   "description": "Code utilities for configuring a service worker.",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
