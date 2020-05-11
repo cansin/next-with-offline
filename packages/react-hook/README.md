@@ -2,7 +2,7 @@
 
 React hook for registering/using a Workbox.
 
-![size](https://img.shields.io/bundlephobia/minzip/@next-with-offline/react-hook.svg) ![dependencies](https://img.shields.io/david/cansin/@next-with-offline/react-hook.svg) ![build](https://img.shields.io/travis/com/cansin/@next-with-offline/react-hook) ![downloads](https://img.shields.io/npm/dt/@next-with-offline/react-hook) ![license](https://img.shields.io/npm/l/@next-with-offline/react-hook.svg)
+![size](https://img.shields.io/bundlephobia/minzip/@next-with-offline/react-hook) ![dependencies](https://img.shields.io/david/cansin/next-with-offline?path=packages%2Freact-hook) ![build](https://img.shields.io/travis/com/cansin/next-with-offline) ![downloads](https://img.shields.io/npm/dm/@next-with-offline/react-hook) ![license](https://img.shields.io/github/license/cansin/next-with-offline)
 
 ## Install
 
