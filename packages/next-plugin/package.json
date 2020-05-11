@@ -1,5 +1,6 @@
 {
   "name": "@next-with-offline/next-plugin",
+  "description": "Next.js plugin for generating a service worker.",
   "license": "MIT",
   "version": "0.1.0",
   "main": "lib/index.cjs.js",

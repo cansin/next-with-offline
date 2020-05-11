@@ -1,6 +1,6 @@
 # @next-with-offline/next-plugin
 
-Higher order Next.js config to generate a [Workbox service worker](https://developers.google.com/web/tools/workbox).
+Next.js plugin for generating a [Workbox service worker](https://developers.google.com/web/tools/workbox).
 It auto-magically sets up certain aspects like pre-caching `public` folder and cache busting exclusions in order
 to get the most out of Workbox with Next.js.
 Heavily inspired from [shadowwalker/next-pwa](https://github.com/shadowwalker/next-pwa).

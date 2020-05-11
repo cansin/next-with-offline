@@ -1,6 +1,6 @@
 # @next-with-offline/service-worker
 
-Utilities for augmenting Workbox service worker code.
+Code utilities for configuring a service worker.
 
 ![size](https://img.shields.io/bundlephobia/minzip/@next-with-offline/service-worker.svg) ![dependencies](https://img.shields.io/david/cansin/@next-with-offline/service-worker.svg) ![build](https://img.shields.io/travis/com/cansin/@next-with-offline/service-worker) ![downloads](https://img.shields.io/npm/dt/@next-with-offline/service-worker) ![license](https://img.shields.io/npm/l/@next-with-offline/service-worker.svg)
 
