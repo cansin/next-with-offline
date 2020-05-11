@@ -25,6 +25,9 @@ module.exports = withOffline({
     dest: "public",
     swDest: "sw.js",
     swSrc: "worker.js",
+    // .
+    // ..
+    // ... other workbox-webpack-plugin.InjectManifest options
   },
   // .
   // ..

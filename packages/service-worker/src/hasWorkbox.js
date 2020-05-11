@@ -2,14 +2,14 @@ import * as googleAnalytics from "workbox-google-analytics";
 import { cleanupOutdatedCaches, precacheAndRoute } from "workbox-precaching";
 
 import hasOffline from "./hasOffline";
-import hasShowSkipWaiting from "./hasShowSkipWaiting";
+import hasShowReloadPrompt from "./hasShowReloadPrompt";
 import hasRoutes from "./hasRoutes";
 
 export default function hasWorkbox({
   cleanupOutdatedCaches: shouldCleanupOutdatedCaches = true,
   offlineGoogleAnalytics = false,
   offlinePath: path = "/offline",
-  showSkipWaitingPrompt = false,
+  showReloadPrompt = false,
 } = {}) {
   precacheAndRoute(self.__WB_MANIFEST);
 
@@ -25,8 +25,8 @@ export default function hasWorkbox({
     hasOffline({ path });
   }
 
-  if (showSkipWaitingPrompt) {
-    hasShowSkipWaiting();
+  if (showReloadPrompt) {
+    hasShowReloadPrompt();
   }
 
   hasRoutes();

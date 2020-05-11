@@ -3,13 +3,13 @@ const withWorkbox = require("next-with-workbox");
 
 function withOffline({ offline = {}, workbox = {}, ...nextConfig } = {}) {
   const { additionalManifestEntries = [], swSrc = "worker.js" } = workbox;
-  const { path = "/offline" } = offline;
+  const { offlinePath = "/offline" } = offline;
 
   return withWorkbox({
     ...nextConfig,
     workbox: {
       additionalManifestEntries: [
-        ...(path ? [{ url: path, revision: nanoid() }] : []),
+        ...(offlinePath ? [{ url: offlinePath, revision: nanoid() }] : []),
         ...additionalManifestEntries,
       ],
       swSrc,

@@ -22,7 +22,7 @@ export default function Component() {
     offlinePath: "/offline",
     registerOptions: {},
     scriptURL: "sw.js",
-    showSkipWaitingPrompt: false,
+    showReloadPrompt: false,
   });
 
   return <p>Hello World!</p>;

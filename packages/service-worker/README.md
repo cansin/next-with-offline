@@ -13,12 +13,12 @@ yarn add @next-with-offline/service-worker
 ## Basic Usage
 
 ```js
-import withNext from "@next-with-offline/service-worker";
+import hasOffline from "@next-with-offline/service-worker";
 
-withNext({
+hasOffline({
   cleanupOutdatedCaches: true,
   offlineGoogleAnalytics: false,
   offlinePath: "/offline",
-  showSkipWaitingPrompt: false,
+  showReloadPrompt: false,
 });
 ```

@@ -42,7 +42,7 @@ yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-wit
    ```js
    import withNext from "@next-with-offline/service-worker";
 
-   withNext({ offlinePath: "/offline", showSkipWaitingPrompt: true });
+   withNext({ offlinePath: "/offline", showReloadPrompt: true });
    ```
 
 4. Update or create `pages/_app.js` with:
@@ -55,7 +55,7 @@ yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-wit
    export default function App({ Component, pageProps }) {
      useWorkbox({
        offlinePath: "/offline",
-       showSkipWaitingPrompt(onConfirm, onCancel) {
+       showReloadPrompt(onConfirm, onCancel) {
          // A function that returns a React element
          // calling `onConfirm` when user agrees to
          // reload, and `onCancel` if the user dismisses.
@@ -86,6 +86,6 @@ yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-wit
 
 - **offlinePath:** string or boolean - a string pathname to the offline page.
   Or `false` if you want to disable. - defaults to `/offline`.
-- **showSkipWaitingPrompt:** function or boolean - a function that returns
+- **showReloadPrompt:** function or boolean - a function that returns
   a React element calling `onConfirm` when user agrees to reload, and `onCancel`
   if the user dismisses. Or `false` if you want to disable. - defaults to `false`.
