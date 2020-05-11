@@ -1,0 +1,27 @@
+{
+  "name": "react-hook",
+  "license": "MIT",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "files": [
+    "lib"
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "use-navigator-online": "^2.0.0"
+  },
+  "peerDependencies": {
+    "next": "^9.0.0",
+    "react": "^16.0.0",
+    "workbox-window": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "next": "^9.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "workbox-window": "^5.0.0"
+  }
+}

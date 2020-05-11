@@ -1,0 +1,13 @@
+{
+  "name": "next-plugin",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "dependencies": {
+    "next-with-workbox": "^1.2.2"
+  }
+}
