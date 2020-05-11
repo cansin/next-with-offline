@@ -8,7 +8,7 @@
     "directory": "packages/service-worker"
   },
   "homepage": "https://github.com/cansin/cansin/tree/master/packages/service-worker#readme",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
