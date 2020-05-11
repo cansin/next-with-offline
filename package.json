@@ -1,5 +1,5 @@
 {
-  "name": "@next-with-offline",
+  "name": "next-with-offline",
   "private": true,
   "workspaces": [
     "packages/*"
