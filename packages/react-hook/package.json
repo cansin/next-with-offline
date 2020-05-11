@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.1",
   "name": "@next-with-offline/react-hook",
   "description": "React hook for registering/using a Workbox.",
   "license": "MIT",
