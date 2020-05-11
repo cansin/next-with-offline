@@ -4,10 +4,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cansin/next-with-offline.git",
+    "url": "https://github.com/cansin/next-with-offline.git",
     "directory": "packages/next-plugin"
   },
-  "homepage": "https://github.com/cansin/cansin/tree/master/packages/next-plugin#readme",
+  "homepage": "https://github.com/cansin/next-with-offline/tree/master/packages/next-plugin#readme",
   "version": "0.1.6",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
