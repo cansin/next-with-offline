@@ -85,7 +85,10 @@ yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-wit
 ### Available Options
 
 - **offlinePath:** string or boolean - a string pathname to the offline page.
-  Or `false` if you want to disable. - defaults to `/offline`.
-- **showReloadPrompt:** function or boolean - a function that returns
-  a React element calling `onConfirm` when user agrees to reload, and `onCancel`
-  if the user dismisses. Or `false` if you want to disable. - defaults to `false`.
+  Or `false` if you want to disable. 
+  - defaults to `/offline`.
+- **showReloadPrompt:** function or boolean - set to a function that returns
+  a Promise that resolves when user agrees to reload, or rejects if 
+  the user dismisses, set to `true` if you simply want to rely on `window.confirm`,
+  or to `false` if you want to skip waiting and claim clients.
+  - defaults to `false`.
