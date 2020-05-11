@@ -1,12 +1,15 @@
 {
-  "name": "react-hook",
+  "name": "@next-with-offline/react-hook",
   "license": "MIT",
+  "version": "0.0.1",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
     "lib"
   ],
-  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "use-navigator-online": "^2.0.0"
   },

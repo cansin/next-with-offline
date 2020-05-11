@@ -1,12 +1,15 @@
 {
-  "name": "next-plugin",
+  "name": "@next-with-offline/next-plugin",
+  "license": "MIT",
+  "version": "0.0.1",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
     "lib"
   ],
-  "license": "MIT",
-  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "next-with-workbox": "^1.2.2"
   }

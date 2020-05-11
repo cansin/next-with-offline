@@ -1,12 +1,15 @@
 {
-  "name": "service-worker",
+  "name": "@next-with-offline/service-worker",
   "license": "MIT",
+  "version": "0.0.1",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
     "lib"
   ],
-  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "workbox-expiration": "^5.1.3",
     "workbox-precaching": "^5.1.3",
