@@ -16,6 +16,8 @@ yarn add @next-with-offline/service-worker
 import withNext from "@next-with-offline/service-worker";
 
 withNext({
+  cleanupOutdatedCaches: true,
+  offlineGoogleAnalytics: false,
   offlinePath: "/offline",
   showSkipWaitingPrompt: false,
 });
