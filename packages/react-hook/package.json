@@ -6,7 +6,7 @@
     "url": "cansin/next-with-offline",
     "directory": "packages/react-hook"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
