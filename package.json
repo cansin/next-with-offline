@@ -1,6 +1,12 @@
 {
   "name": "next-with-offline",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Cansin Yildiz",
+    "email": "cansinyildiz@gmail.com",
+    "url": "https://www.cansinyildiz.com/"
+  },
   "workspaces": [
     "packages/*"
   ],
