@@ -10,16 +10,13 @@ Code utilities for configuring a service worker.
 yarn add @next-with-offline/service-worker
 ```
 
-## Usage
+## Basic Usage
 
 ```js
-import withOffline from "@next-with-offline/service-worker";
+import withNext from "@next-with-offline/service-worker";
 
-withOffline({
-  additionalManifestEntries: [{ url: "/offline", revision: nanoid() }],
+withNext({
+  offlinePath: "/offline",
+  showSkipWaitingPrompt: false,
 });
 ```
-
-## License
-
-MIT © [cansin](https://github.com/cansin)

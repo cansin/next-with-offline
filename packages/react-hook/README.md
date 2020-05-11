@@ -10,7 +10,7 @@ React hook for registering/using a Workbox.
 yarn add @next-with-offline/react-hook
 ```
 
-## Usage
+## Basic Usage
 
 ```js
 import React from "react";
@@ -28,7 +28,3 @@ export default function Component() {
   return <p>Hello World!</p>;
 }
 ```
-
-## License
-
-MIT © [cansin](https://github.com/cansin)
