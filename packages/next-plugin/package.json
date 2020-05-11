@@ -2,6 +2,10 @@
   "name": "@next-with-offline/next-plugin",
   "description": "Next.js plugin for generating a service worker.",
   "license": "MIT",
+  "repository": {
+    "url": "cansin/next-with-offline",
+    "directory": "packages/next-plugin"
+  },
   "version": "0.1.4",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",

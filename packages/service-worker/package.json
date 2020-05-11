@@ -2,6 +2,10 @@
   "name": "@next-with-offline/service-worker",
   "description": "Code utilities for configuring a service worker.",
   "license": "MIT",
+  "repository": {
+    "url": "cansin/next-with-offline",
+    "directory": "packages/service-worker"
+  },
   "version": "0.1.4",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",

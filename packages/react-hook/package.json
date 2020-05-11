@@ -2,6 +2,10 @@
   "name": "@next-with-offline/react-hook",
   "description": "React hook for registering/using a Workbox.",
   "license": "MIT",
+  "repository": {
+    "url": "cansin/next-with-offline",
+    "directory": "packages/react-hook"
+  },
   "version": "0.1.4",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
