@@ -1,18 +1,9 @@
 {
-  "name": "next-with-offline",
+  "version": "0.1.7",
   "private": true,
-  "license": "MIT",
-  "author": {
-    "name": "Cansin Yildiz",
-    "email": "cansinyildiz@gmail.com",
-    "url": "https://www.cansinyildiz.com/"
-  },
   "workspaces": [
     "packages/*"
   ],
-  "engines": {
-    "node": ">=12.16.3"
-  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna exec --parallel -- rollup -c",
