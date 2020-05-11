@@ -1,5 +1,5 @@
 {
-  "version": "0.3.3",
+  "version": "0.4.0",
   "name": "@next-with-offline/service-worker",
   "description": "Code utilities for configuring a service worker.",
   "license": "MIT",
@@ -46,8 +46,8 @@
     "workbox-precaching": "^5.0.0"
   },
   "devDependencies": {
-    "workbox-precaching": "^5.0.0",
-    "fake-indexeddb": "^3.0.0"
+    "fake-indexeddb": "^3.0.0",
+    "workbox-precaching": "^5.0.0"
   },
   "gitHead": "d2c7c255414df2f6418c80478f016cde8b7ac752"
 }
