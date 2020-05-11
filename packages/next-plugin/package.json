@@ -1,5 +1,5 @@
 {
-  "version": "0.1.7",
+  "version": "0.2.0",
   "name": "@next-with-offline/next-plugin",
   "description": "Next.js plugin for generating a service worker.",
   "license": "MIT",
