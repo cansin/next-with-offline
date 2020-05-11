@@ -7,9 +7,9 @@
   ],
   "scripts": {
     "bootstrap": "yarn lerna bootstrap",
-    "build": "yarn lerna exec --parallel -- rollup -c",
-    "dev": "yarn lerna exec --parallel -- rollup -c -w",
-    "test": "yarn eslint . && yarn lerna exec --parallel -- jest",
+    "build": "yarn lerna -- exec --parallel -- rollup -c",
+    "dev": "yarn lerna -- exec --parallel -- rollup -c -w",
+    "test": "yarn eslint . && yarn lerna -- exec --parallel -- jest",
     "prepare": "yarn build",
     "pretest": "yarn build"
   },

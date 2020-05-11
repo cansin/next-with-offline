@@ -18,4 +18,4 @@ function withOffline({ offline = {}, workbox = {}, ...nextConfig } = {}) {
   });
 }
 
-module.exports = withWorkbox;
+module.exports = withOffline;
