@@ -1,7 +1,7 @@
 {
   "name": "@next-with-offline/react-hook",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
