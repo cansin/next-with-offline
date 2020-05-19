@@ -1,6 +1,8 @@
-# @next-with-offline ![build](https://img.shields.io/travis/com/cansin/next-with-offline) ![license](https://img.shields.io/github/license/cansin/next-with-offline)
+# @next-with-offline 
+[![build](https://img.shields.io/travis/com/cansin/next-with-offline)](https://travis-ci.com/github/cansin/next-with-offline) 
+[![license](https://img.shields.io/github/license/cansin/next-with-offline)](LICENSE)
 
-A suit of libraries that enables you to have a Workbox, Next.js, and React based Progressive Web App
+A suite of libraries that enables you to have a Workbox, Next.js, and React based Progressive Web App
 with basic offline support.
 
 - **[`@next-with-offline/next-plugin`](packages/next-plugin):** Next.js plugin for generating a Workbox.

@@ -1,8 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 export default function useShowReloadPrompt({ showReloadPrompt }) {
+  const showReloadPromptRef = useRef({ showReloadPrompt });
+
   useEffect(() => {
-    if (!window.workbox || !showReloadPrompt) {
+    if (!window.workbox || !showReloadPromptRef.current) {
       return;
     }
 
@@ -15,8 +17,8 @@ export default function useShowReloadPrompt({ showReloadPrompt }) {
     };
     const onCancel = () => {};
 
-    if (!(showReloadPrompt instanceof Function)) {
-      showReloadPrompt = () => {
+    if (!(showReloadPromptRef.current instanceof Function)) {
+      showReloadPromptRef.current = () => {
         return new Promise(function (resolve, reject) {
           let confirmed = window.confirm(
             "A new version is available, reload to use it immediately?"
@@ -29,7 +31,7 @@ export default function useShowReloadPrompt({ showReloadPrompt }) {
 
     const prompt = async () => {
       try {
-        await showReloadPrompt();
+        await showReloadPromptRef.current();
         onConfirm();
       } catch (e) {
         onCancel();
@@ -38,7 +40,7 @@ export default function useShowReloadPrompt({ showReloadPrompt }) {
 
     window.workbox.addEventListener("waiting", prompt);
     window.workbox.addEventListener("externalwaiting", prompt);
-  }, [showReloadPrompt]);
+  }, []);
 
   return null;
 }

@@ -1,11 +1,10 @@
 {
   "env": {
+    "browser": true,
+    "es6": true,
     "node": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "prettier/react"
-  ],
+  "extends": ["plugin:react/recommended", "prettier/react"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
