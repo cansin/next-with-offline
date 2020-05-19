@@ -1,12 +1,15 @@
 # @next-with-offline/next-plugin
 
-Next.js plugin for generating a Workbox.
+Next.js plugin for generating a Workbox. Intended to be used alongside
+[@next-with-offline/react-hook](https://www.npmjs.com/package/@next-with-offline/react-hook) and
+[@next-with-offline/service-worker](https://www.npmjs.com/package/@next-with-offline/service-worker).
+Read [the top level documentation](https://github.com/cansin/next-with-offline#readme) for more information about usage.
 
-[![size](https://img.shields.io/bundlephobia/minzip/@next-with-offline/next-plugin)](https://bundlephobia.com/result?p=@next-with-offline/next-plugin) 
-[![dependencies](https://img.shields.io/librariesio/release/npm/@next-with-offline/next-plugin)](https://libraries.io/npm/@next-with-offline%2Fnext-plugin) 
-[![build](https://img.shields.io/travis/com/cansin/next-with-offline)](https://travis-ci.com/github/cansin/next-with-offline) 
-[![downloads](https://img.shields.io/npm/dm/@next-with-offline/next-plugin)](https://www.npmjs.com/package/@next-with-offline/next-plugin) 
-[![license](https://img.shields.io/github/license/cansin/next-with-offline)]((../../LICENSE))
+[![size](https://img.shields.io/bundlephobia/minzip/@next-with-offline/next-plugin)](https://bundlephobia.com/result?p=@next-with-offline/next-plugin)
+[![dependencies](https://img.shields.io/librariesio/release/npm/@next-with-offline/next-plugin)](https://libraries.io/npm/@next-with-offline%2Fnext-plugin)
+[![build](https://img.shields.io/travis/com/cansin/next-with-offline)](https://travis-ci.com/github/cansin/next-with-offline)
+[![downloads](https://img.shields.io/npm/dm/@next-with-offline/next-plugin)](https://www.npmjs.com/package/@next-with-offline/next-plugin)
+[![license](https://img.shields.io/github/license/cansin/next-with-offline)](<(https://github.com/cansin/next-with-offline/blob/master/LICENSE)>)
 
 ## Install
 

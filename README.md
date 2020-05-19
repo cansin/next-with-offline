@@ -1,6 +1,6 @@
 # @next-with-offline 
 [![build](https://img.shields.io/travis/com/cansin/next-with-offline)](https://travis-ci.com/github/cansin/next-with-offline) 
-[![license](https://img.shields.io/github/license/cansin/next-with-offline)](LICENSE)
+[![license](https://img.shields.io/github/license/cansin/next-with-offline)](https://github.com/cansin/next-with-offline/blob/master/LICENSE)
 
 A suite of libraries that enables you to have a Workbox, Next.js, and React based Progressive Web App
 with basic offline support.
