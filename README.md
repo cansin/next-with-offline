@@ -12,7 +12,7 @@ with basic offline support.
 ## Install
 
 ```bash
-yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-with-offline/service-worker
+yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-with-offline/service-worker workbox-window
 ```
 
 ## Basic Usage
@@ -91,6 +91,6 @@ yarn add @next-with-offline/next-plugin @next-with-offline/react-hook  @next-wit
   - defaults to `/offline`.
 - **showReloadPrompt:** function or boolean - set to a function that returns
   a Promise that resolves when user agrees to reload, or rejects if 
-  the user dismisses, set to `true` if you simply want to rely on `window.confirm`,
-  or to `false` if you want to skip waiting and claim clients.
+  the user dismisses. set to `true` if you simply want to rely on the default implementation
+  that uses `window.confirm`, or to `false` if you want to skip waiting and claim clients.
   - defaults to `false`.

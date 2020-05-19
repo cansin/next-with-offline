@@ -14,7 +14,7 @@ Read [the top level documentation](https://github.com/cansin/next-with-offline#r
 ## Install
 
 ```bash
-yarn add @next-with-offline/react-hook
+yarn add @next-with-offline/react-hook workbox-window
 ```
 
 ## Basic Usage
