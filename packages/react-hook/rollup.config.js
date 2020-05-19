@@ -6,8 +6,8 @@ export default [
   {
     input: "src/index.js",
     external: [
-      "react",
       "next/router",
+      "react",
       "use-navigator-online",
       "workbox-window",
     ],

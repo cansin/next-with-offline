@@ -6,11 +6,12 @@ export default [
   {
     input: "src/index.js",
     external: [
-      "workbox-window",
-      "workbox-strategies",
+      "workbox-expiration",
+      "workbox-google-analytics",
       "workbox-precaching",
       "workbox-routing",
-      "workbox-expiration",
+      "workbox-strategies",
+      "workbox-window",
     ],
     output: [
       { file: pkg.main, format: "cjs" },
