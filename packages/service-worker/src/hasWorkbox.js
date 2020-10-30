@@ -10,6 +10,11 @@ export default function hasWorkbox({
   offlineGoogleAnalytics = false,
   offlinePath: path = "/offline",
   showReloadPrompt = false,
+  cacheImages = true,
+  cacheFonts = true,
+  cacheJavascript = true,
+  cacheStyles = true,
+  cacheData = true,
 } = {}) {
   precacheAndRoute(self.__WB_MANIFEST);
 
@@ -25,9 +30,13 @@ export default function hasWorkbox({
     hasOffline({ path });
   }
 
-  if (showReloadPrompt) {
-    hasShowReloadPrompt();
-  }
+  hasShowReloadPrompt(showReloadPrompt);
 
-  hasRoutes();
+  hasRoutes({
+    cacheImages,
+    cacheFonts,
+    cacheJavascript,
+    cacheStyles,
+    cacheData,
+  });
 }
