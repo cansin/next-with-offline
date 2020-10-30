@@ -1,5 +1,5 @@
 {
-  "version": "3.0.7",
+  "version": "3.1.0",
   "name": "@next-with-offline/service-worker",
   "description": "Code utilities for configuring a service worker.",
   "license": "MIT",
