@@ -40,6 +40,7 @@ export default function useShowReloadPrompt({ showReloadPrompt }) {
 
     window.workbox.addEventListener("waiting", prompt);
     window.workbox.addEventListener("externalwaiting", prompt);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return null;
