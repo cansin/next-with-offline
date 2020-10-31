@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "nanoid": "^3.1.16",
-    "next-with-workbox": "^2.0.0"
+    "next-with-workbox": "^2.0.1"
   },
   "gitHead": "d2c7c255414df2f6418c80478f016cde8b7ac752"
 }
