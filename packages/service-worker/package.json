@@ -37,18 +37,18 @@
     "access": "public"
   },
   "dependencies": {
-    "workbox-expiration": "^5.0.0",
-    "workbox-google-analytics": "^5.0.0",
-    "workbox-precaching": "^5.0.0",
-    "workbox-routing": "^5.0.0",
-    "workbox-strategies": "^5.0.0"
+    "workbox-expiration": "^5.1.4",
+    "workbox-google-analytics": "^5.1.4",
+    "workbox-precaching": "^5.1.4",
+    "workbox-routing": "^5.1.4",
+    "workbox-strategies": "^5.1.4"
   },
   "peerDependencies": {
-    "workbox-window": "^5.0.0"
+    "workbox-window": "^5.1.4"
   },
   "devDependencies": {
-    "fake-indexeddb": "^3.0.0",
-    "workbox-window": "^5.0.0"
+    "fake-indexeddb": "^3.1.2",
+    "workbox-window": "^5.1.4"
   },
   "gitHead": "d2c7c255414df2f6418c80478f016cde8b7ac752"
 }

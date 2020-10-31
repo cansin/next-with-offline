@@ -39,21 +39,21 @@
     "access": "public"
   },
   "dependencies": {
-    "use-navigator-online": "^2.0.0"
+    "use-navigator-online": "^2.0.2"
   },
   "peerDependencies": {
-    "next": "^9.0.0",
-    "react": "^16.0.0",
-    "workbox-window": "^5.0.0"
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "workbox-window": "^5.1.4"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.9.4",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^4.0.0",
-    "next": "^9.0.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "workbox-window": "^5.0.0"
+    "@babel/preset-react": "^7.12.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "workbox-window": "^5.1.4"
   },
   "gitHead": "d2c7c255414df2f6418c80478f016cde8b7ac752"
 }
