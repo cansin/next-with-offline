@@ -4,7 +4,7 @@ export default function useShowReloadPrompt({ showReloadPrompt }) {
   const showReloadPromptRef = useRef({ showReloadPrompt });
 
   useEffect(() => {
-    if (!window.workbox || !showReloadPromptRef.current) {
+    if (!window.workbox || !showReloadPrompt || !showReloadPromptRef.current) {
       return;
     }
 
